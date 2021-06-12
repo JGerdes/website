@@ -1,0 +1,9 @@
+{{ define "main" }}
+<h1>{{.Title}}</h1>
+{{ .Content }}
+{{ range first 10 (where .Pages ".Params.specialpage" "!=" true)}}
+        <li>
+            <a href="{{.Permalink}}">1:{{.Date.Format "2006-01-02"}} | {{.Title}} | {{.Param "hide"}}</a>
+        </li>
+{{ end }}
+{{ end }}
