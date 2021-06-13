@@ -1,11 +1,11 @@
 ---
 title: Driveby
-date: 2021-06-12T10:18:09+02:00
+date: 2016-10-18T22:27:00+02:00
 draft: false
 summary: Android-App, die interessante Informationen zu nahegelegenden Orten erzählt. Entwickelt beim jacobsHack! 2016.
 tags: [tts,gps,android,wikipedia,hackstrong,hackathon]
 header:
-    image: /images/driveby/header.jpg
+    image: /assets/images/driveby/header.jpg
     scrim: 0.5
 actions:
     - label: Auf Devpost
@@ -20,8 +20,8 @@ Dabei wurde der Fokus darauf gelegt, dass die App "handsfree also ohne großarti
 
 Falls der Nutzer die bereits gehörten Informationen noch einmal nachlesen möchte, hat er die Möglichkeit, dies über die History-Funktion der App zu tun. Dort werden in chronologischer Reihenfolge alle angefahrenden Orte aufgelistet. Antippen eines Eintrags leitet auf die mobile Seite des jeweiligen Eintrag von Wikipedia weiter.
 
-!["History-Ansicht](/images/driveby/screen_history.png)
-!["Heads-Up-Benachrichtigung](/images/driveby/screen_notification.png)
+{{< figure src="/assets//images/driveby/screen_history.png" alt="History-Ansicht" caption="In der History-Ansicht werden bereits besuchte Orte aufgelistet.">}}
+{{< figure src="/assets/images/driveby/screen_notification.png" alt="Heads-Up-Benachrichtigung von DriveBy" caption="Heads-Up-Benachrichtigungen zeigen den Namen des Ortes, über den Informationen vorgelesen werden.">}}
 
 ## Entwicklung
 Entwickelt wurde DriveBy innerhalb von 24 Stunden im Rahmen des Hackerthons [jacobsHack!](//jacobshack.com) 2016 von [Stefan Oberdörfer](//github.com/stefanoberdoerfer) und mir.
