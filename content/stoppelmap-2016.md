@@ -1,7 +1,6 @@
 ---
 title: StoppelMap 2016
 date: 2016-10-18T22:27:00+02:00
-draft: false
 summary: Eine komplett überarbeitete Version der inoffiziellen Android-App für den Stoppelmarkt in Vechta.
 tags: [stoppelmarkt,google-maps,android,material-design]
 header:
