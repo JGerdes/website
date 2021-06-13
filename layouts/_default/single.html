@@ -1,5 +1,8 @@
 {{ define "main" }}
+<pre>{{ printf "%#v" .Params }}</pre>
 <article>
+    <img src="{{.Params.header.image}}">
     <h1>{{.Title}}</h1>
+    {{.Content}}
 </article>
 {{ end }}

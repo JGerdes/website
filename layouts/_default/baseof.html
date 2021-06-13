@@ -2,7 +2,7 @@
 <html>
     {{- partial "head.html" . -}}
     <body>
-    {{ printf "%#v" .Site }}
+    <!--{{ printf "%#v" .Site }}-->
         {{- partial "header.html" . -}}
         <div id="content">
         {{- block "main" . }}{{- end }}

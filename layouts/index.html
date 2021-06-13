@@ -2,8 +2,15 @@
 <h1>{{.Title}}</h1>
 {{ .Content }}
 {{ range first 10 (where .Pages ".Params.specialpage" "!=" true)}}
-        <li>
-            <a href="{{.Permalink}}">1:{{.Date.Format "2006-01-02"}} | {{.Title}} | {{.Param "hide"}}</a>
-        </li>
+<a href="{{.Permalink}}">
+    <div>
+        <h1>{{.Title}}</h1>
+        <p>{{.Date.Format "2006-01-02"}}</p>
+        <p>{{.Summary}}</p>
+        {{range .Params.actions}}
+        <a href="{{.action}}">{{.label}}</a>
+        {{end}}
+    </div>
+</a>
 {{ end }}
 {{ end }}
