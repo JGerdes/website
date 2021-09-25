@@ -1,4 +1,21 @@
 {{ define "main" }}
-<h1>{{.Title}}</h1>
-{{ .Content }}
+{{ range first 10 (where .Pages ".Params.specialpage" "!=" true)}}
+<article class="media">
+    <div class="media__wrapper">
+        <img src="{{.Params.header.image}}">
+        <div class="scrim" style="opacity: {{.Params.header.scrim}};"></div>
+    </div>
+    <div class="date">{{.Date.Format "01.02.2006"}}</div>
+    <h1>{{.Title}}</h1>
+    <p class="summary">
+        {{.Summary}}
+    </p>
+    <ul class="action">
+        <li><a class="opener" href="/{{.File.BaseFileName}}">Mehr erfahren</a></li>
+        {{range .Params.actions}}
+        <li><a href="{{.action}}">{{.label}}</a></li>
+        {{end}}
+    </ul>
+</article>
+{{ end }}
 {{ end }}
