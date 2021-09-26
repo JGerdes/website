@@ -1,12 +1,11 @@
 {{ define "main" }}
 {{ range first 10 (where .Pages ".Params.specialpage" "!=" true)}}
-<article class="media">
-    <div class="media__wrapper">
+<article class="preview hoverable">
+    <header>
         <img src="{{.Params.header.image}}">
-        <div class="scrim" style="opacity: {{.Params.header.scrim}};"></div>
-    </div>
-    <div class="date">{{.Date.Format "01.02.2006"}}</div>
-    <h1>{{.Title}}</h1>
+        <h1 data-scrim="{{.Params.header.scrim}}">{{.Title}}</h1>
+        <time>{{.Date | time.Format ":date_long"}}</time>
+    </header>
     <p class="summary">
         {{.Summary}}
     </p>
