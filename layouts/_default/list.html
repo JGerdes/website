@@ -2,7 +2,7 @@
 {{ range first 10 (where .Pages ".Params.specialpage" "!=" true)}}
 <article class="preview hoverable">
     <header>
-        <img src="{{.Params.header.image}}">
+        <img src="{{.Params.header.image}}" loading="lazy">
         <h1 data-scrim="{{.Params.header.scrim}}">{{.Title}}</h1>
         <time>{{.Date | time.Format ":date_long"}}</time>
     </header>
