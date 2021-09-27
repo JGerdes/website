@@ -22,19 +22,21 @@ Der Spieler hat eine Auswahl von Türmen, die er für Energie kaufen und bauen k
 
 <video src="/assets/videos/awsm_game_play.mp4" poster="/assets/videos/awsm-poster.png" controls=true loop=true></video>
 ## Steuerung
-<h4>Überall</h4>
+#### Überall
 _ESCAPE_: Beenden des Spiels
 
-<h4>Menü</h4>
-_Pfeiltasten_ oder _W-A-S-D_: Auswahl<br />_ENTER_: Auswahl bestätigen
+#### Menü
+_Pfeiltasten_ oder _W-A-S-D_: Auswahl
+_ENTER_: Auswahl bestätigen
 
-<h4>Spiel</h4>
-<p>_Pfeiltasten_ oder _W-A-S-D_ oder Maus an den Rand bewegen: Verschieben der Ansicht<br />
-    	_1, 2, 3, ..._: Auswahl eines Turmes<br />
-    	_Klicken_: Ausgewählten Turm an Mausposition bauen<br />
-    	_N_ oder _ENTER_: Nächste Welle starten (Wenn vorherige vorbei ist)<br />
-    	_Q_: Alle Türme abwählen<br />
-    	_M_: Zurück ins Hauptmenü</p>
+#### Spiel
+_Pfeiltasten_ oder _W-A-S-D_ oder Maus an den Rand bewegen: Verschieben der Ansicht
+    	_1, 2, 3, ..._: Auswahl eines Turmes
+    	_Klicken_: Ausgewählten Turm an Mausposition bauen
+    	_N_ oder _ENTER_: Nächste Welle starten (Wenn vorherige vorbei ist)
+    	_Q_: Alle Türme abwählen
+    	_M_: Zurück ins Hauptmenü
+
 ## Soundtrack
 Da wir zum Ende des Semesters ein möglichst komplettes Spiel abliefern wollten, brauchten wir noch Musik. Ohne Audio ist ein Spiel nur ein halbes Spiel! Für jedes Level sowie für das Hauptmenü habe ich daher je ein kurzes Lied produziert.
 
@@ -42,6 +44,7 @@ Da wir zum Ende des Semesters ein möglichst komplettes Spiel abliefern wollten,
 <div class="track"><div class="track__info">02 - The Icosahedron - AWSM OST</div><audio src="awsm/ost/02_the_icosahedron_128.mp3" data-cover="assets/images/awsm/ost/cover.png" data-wave="assets/images/awsm/ost/track2.svg" data-wave-played="/assets/images/awsm/ost/track2_played.svg" controls></audio></div>
 <div class="track"><div class="track__info">03 - Polygon Beach - AWSM OST</div><audio src="awsm/ost/03_polygon_beach_128.mp3" data-cover="assets/images/awsm/ost/cover.png" data-wave="assets/images/awsm/ost/track3.svg" data-wave-played="/assets/images/awsm/ost/track3_played.svg" controls></audio></div>
 <div class="track"><div class="track__info">04 - Route N8 - AWSM OST</div><audio src="awsm/ost/04_route_n8_128.mp3" data-cover="assets/images/awsm/ost/cover.png" data-wave="assets/images/awsm/ost/track4.svg" data-wave-played="/assets/images/awsm/ost/track4_played.svg" controls></audio></div>
+
 Alle Tracks können in voller Qualität als [Album heruntergelanden](/awsm/download/awsm_ost.zip) werden.
 
 ## Download

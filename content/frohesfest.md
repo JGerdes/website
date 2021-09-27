@@ -22,6 +22,7 @@ Durch Klicken, Berühren oder mit der Leertaste kann der Schlitten beschleunigt 
 Um dem Spiel noch ein kleines bisschen mehr winterliche Atmosphäre zu verleihen, habe ich noch einen kurzen Drum'n'Bass-Track produziert:
 
 <div class="track"><div class="track__info">01 - Distant Town - Frohes Fest OST</div><audio src="frohesfest/ost/01_distant_town_128.mp3" data-cover="assets/images/frohesfest/ost/cover.png" data-wave="/assets/images/frohesfest/ost/track1.svg" data-wave-played="/assets/images/frohesfest/ost/track1_played.svg" controls></audio></div>
+
 Der Track kann auch in voller Qualität [heruntergelanden](/frohesfest/download/frohesfest_ost.zip) werden.
 
 ## Spielen

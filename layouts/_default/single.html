@@ -1,6 +1,8 @@
 {{ define "main" }}
 <article>
+    {{ if isset .Params ".header" }}
     <img src="{{.Params.header.image}}">
+    {{ end }}
     <h1>{{.Title}}</h1>
     {{.Content}}
     <ul class="tags">
