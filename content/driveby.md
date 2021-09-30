@@ -3,6 +3,7 @@ title: Driveby
 date: 2016-10-18T22:27:00+02:00
 draft: false
 summary: Android-App, die interessante Informationen zu nahegelegenden Orten erzählt. Entwickelt beim jacobsHack! 2016.
+short_summary: Android-App mit Infos zu nahegelegenden Orten.
 tags: [tts,gps,android,wikipedia,hackstrong,hackathon]
 header:
     image: /assets/images/driveby/header.jpg

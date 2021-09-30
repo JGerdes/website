@@ -3,6 +3,7 @@ title: "{{ replace .Name "-" " " | title }}"
 date: {{ .Date }}
 draft: true
 summary: 
+short_summary:
 tags: []
 header:
     image: /images/page/header.jpg
