@@ -1,4 +1,5 @@
 {{ define "main" }}
+<h2> #{{.Title}} </h2>
 {{ range first 10 (where .Pages ".Params.specialpage" "!=" true)}}
 <article class="preview hoverable">
     <header>
