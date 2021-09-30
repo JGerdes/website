@@ -2,6 +2,7 @@
 title: AWSM - TowerDefence
 date: 2015-08-01T10:10:00+02:00
 summary: Kleines TowerDefence-Spiel für Windows, das als Abschlussprojekt für den Kurs Game Programming Patterns entwickelt wurde.
+short_summary: TowerDefence-Spiel in C#.
 tags: [spiel,windows,c#,sfml,cinema4d,jonapps]
 header:
     image: /assets/images/awsm/header.png

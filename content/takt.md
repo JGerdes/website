@@ -2,6 +2,7 @@
 title: Takt
 date: 2016-04-24T13:09:00+02:00
 summary: Ein BPM-Detektor für die Pebble Time Round. Ermittelt die Geschwindigkeit (Schläge pro Minute) von Liedern oder dient als Metronom.
+short_summary: BPM-Detektor für die Pebble Time Round.
 tags: [c,music,bpm,smartwatch,pebble]
 header:
     image: /assets/images/takt/header.jpg

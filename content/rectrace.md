@@ -2,6 +2,7 @@
 title: RectRace
 date: 2013-10-26T19:36:00+02:00
 summary: Ein Geschicklichkeitsspiel mit simpler Grafik.
+short_summary: Simples Geschicklichkeitsspiel für Android.
 tags: [spiel,android]
 header:
     image: /assets/images/rectrace-header.png

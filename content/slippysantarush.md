@@ -2,6 +2,7 @@
 title: SlippySantaRush
 date: 2014-12-08T10:10:50+02:00
 summary: Ein simples Geschicklichkeitsspiel mit Weihnachtsatmosphäre für Android.
+short_summary: Weihnachtliches Spiel für Android.
 tags: [spiel,android,cinema4d,libgdx,jonapps,weihnachten]
 header:
     image: /assets/images/slippysantarush/header.png

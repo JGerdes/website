@@ -2,6 +2,7 @@
 title: Zukunftsküche
 date: 2013-07-05T10:00:00+02:00
 summary: Kochsimulation in einer im Weltraum befindlichen Zukunftsküche. Entstanden in einer Gruppenarbeit während des 2. Semesters.
+short_summary: Fürs Studium entstandene HTML5-Projekt.
 tags: [spiel,studium,javascript,html5]
 header:
     image: /assets/images/futurekitchen-header.png

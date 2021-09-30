@@ -2,6 +2,7 @@
 title: Mensaport
 date: 2015-06-21T11:00:00+02:00
 summary: Eine komfortable und simple App für die Mensa der Hochschule Bremen am Airport.
+short_summary: Mensa-Menü-Karte als App für Android.
 tags: [mensa,hsb,android,material-design]
 header:
     image: /assets/images/mensaport/header.png

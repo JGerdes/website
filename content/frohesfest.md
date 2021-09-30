@@ -2,6 +2,7 @@
 title: Frohes Fest!
 date: 2015-12-20T11:34:00+02:00
 summary: Ein kurzes winterliches Spiel - steure den Schlitten sicher zur Stadt!
+short_summary: Winterliches Spiel für den Browser.
 tags: [spiel,phaser,javascript,html5,winter]
 header:
     image: /assets/images/frohesfest/header.png
