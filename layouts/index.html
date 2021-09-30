@@ -1,5 +1,5 @@
 {{ define "main" }}
-<h1>{{.Title}}</h1>
+<h2>{{.Title}}</h2>
 {{ .Content }}
 {{ range first 10 (where .Pages ".Params.specialpage" "!=" true)}}
 <article class="preview hoverable">
