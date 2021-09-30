@@ -1,5 +1,30 @@
-:root {
-    --main-bg-color: #009688;
+body {
+    --bg-color: #009688;
+    --font-color: #222222;
+    --font-color-inverted: #fafafa;
+    --card-color: #fafafa;
+    --link-color: #009688;
+    --action-color: #e64a19;
+    --action-color-10: #e64a191a;
+    --footer-bg-color: #222222;
+
+    --header-background: url(/assets/header.svg);
+    --tag-icon: url('/assets/icons/tag.svg');
+}
+
+@media (prefers-color-scheme: dark) {
+    body {
+        --bg-color: #210b6d;
+        --font-color-inverted: #fafafa;
+        --font-color: #fafafa;
+        --link-color: #e61971;
+        --card-color: #222222;
+        --action-color: #e61971;
+        --action-color-10: #e619711a;
+        --footer-bg-color: #222222;
+        --header-background: url(/assets/header_dark.svg);
+        --tag-icon: url('/assets/icons/tag_dark.svg');
+    }
 }
 
 * {
@@ -9,12 +34,13 @@
 
 body, html {
     font-family: Roboto, sans-serif;
+    color: var(--font-color);
     margin: 0;
     padding: 0;
 }
 
 body {
-    background-color: var(--main-bg-color);
+    background-color: var(--bg-color);
 }
 
 body>header {
@@ -23,34 +49,34 @@ body>header {
     min-height: 16em;
     max-height: 24em;
     padding-top: 4em;
-    background-image: url(/assets/header.svg);
+    background-image: var(--header-background);
     background-size: cover;
     background-position: center bottom;
     background-repeat: no-repeat;
 }
 
-header > h1 {
+header>h1 {
     text-align: center;
 }
 
-header > h1 > a {
+header>h1>a {
     font-size: 3rem;
     font-weight: 300;
-    color: #fafafa;
+    color: var(--font-color-inverted);
 }
 
-header > .subtitle {
+header>.subtitle {
     margin-top: 0.5em;
     text-align: center;
     font-weight: 300;
-    color: #fafafa;
+    color: var(--font-color-inverted);
 }
 
 nav {
     margin-top: 2em;
 }
 
-nav > ul {
+nav>ul {
     display: flex;
     list-style: none;
     gap: 0.5em;
@@ -58,7 +84,7 @@ nav > ul {
     justify-content: center;
 }
 
-nav > ul img {
+nav>ul img {
     width: 2em;
     padding: 0.5em;
 }
@@ -80,7 +106,7 @@ main>h2 {
 
 article {
     max-width: 48em;
-    background: #fafafa;
+    background: var(--card-color);
     box-shadow: 0 .5em 1em rgb(0 0 0 / 20%);
     border-radius: 1em;
     overflow: hidden;
@@ -119,7 +145,7 @@ article>header::after {
 article>header>img {
     width: 100%;
     min-height: 8em;
-    background-color: #006064;
+    background-color: var(--bg-color);
     margin: 0;
     display: block;
 }
@@ -143,7 +169,7 @@ article>header>h1 {
     bottom: 0;
     left: 0;
     margin: 1rem 2rem;
-    color: #ffffff;
+    color: var(--font-color-inverted);
     z-index: 1;
 }
 
@@ -152,7 +178,7 @@ article>header>time {
     bottom: 0;
     right: 0;
     margin: 1rem 2rem;
-    color: #ffffff;
+    color: var(--font-color-inverted);
     z-index: 1;
 }
 
@@ -171,11 +197,11 @@ article h1 {
     margin: 2rem;
 }
 
-article > img {
+article>img {
     width: 100%;
 }
 
-article > time {
+article>time {
     float: right;
     margin: 2em;
 }
@@ -186,7 +212,7 @@ article h2, article h3, article h4 {
 
 a {
     text-decoration: none;
-    color: #009688;
+    color: var(--link-color);
     font-weight: 400;
 }
 
@@ -205,14 +231,15 @@ figure>figcaption {
 }
 
 ul.tags {
-    list-style: inside url('/assets/icons/tag.svg');
+    list-style: inside var(--tag-icon);
     margin: 2rem;
     gap: 1rem;
     justify-content: flex-end;
+    color: var(--action-color);
 }
 
 ul.tags>li>a {
-    color: #E64A19;
+    color: var(--action-color);
 }
 
 ul.action {
@@ -228,17 +255,17 @@ ul.action>li>a {
     display: block;
     text-transform: uppercase;
     text-decoration: none;
-    color: #E64A19;
+    color: var(--action-color);
     padding: 1em;
     border-radius: 0.5em;
 }
 
 ul.action>li>a:hover {
-    background: rgb(230 74 25 / 10%);
+    background: var(--action-color-10);
 }
 
 footer {
-    background: #222222;
+    background: var(--footer-bg-color);
 }
 
 footer>ul {
@@ -253,6 +280,6 @@ footer>ul {
 
 footer>ul>li>a {
     text-decoration: none;
-    color: #ffffff;
+    color: var(--font-color-inverted);
     padding: 0.5em;
 }
