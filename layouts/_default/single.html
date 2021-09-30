@@ -1,8 +1,9 @@
 {{ define "main" }}
 <article>
-    {{ if isset .Params ".header" }}
+    {{ if isset .Params "header" }}
     <img src="{{.Params.header.image}}">
     {{ end }}
+    <time>{{.Date | time.Format ":date_long"}}</time>
     <h1>{{.Title}}</h1>
     {{.Content}}
     <ul class="tags">
