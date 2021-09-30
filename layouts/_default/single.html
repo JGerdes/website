@@ -3,7 +3,9 @@
     {{ if isset .Params "header" }}
     <img src="{{.Params.header.image}}">
     {{ end }}
+    {{ if not .Params.specialpage}}
     <time>{{.Date | time.Format ":date_long"}}</time>
+    {{ end }}
     <h1>{{.Title}}</h1>
     {{.Content}}
     <ul class="tags">
