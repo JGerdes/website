@@ -7,7 +7,8 @@ body {
     --action-color: #e64a19;
     --action-color-10: #e64a191a;
     --footer-bg-color: #222222;
-
+    --selection-bg-color: #4DB6AC;
+    --selection-font-color: #fafafa;
     --header-background: url(/assets/header.svg);
     --tag-icon: url('/assets/icons/tag.svg');
 }
@@ -22,6 +23,8 @@ body {
         --action-color: #e61971;
         --action-color-10: #e619711a;
         --footer-bg-color: #222222;
+        --selection-bg-color: #5623b0;
+        --selection-font-color: #fafafa;
         --header-background: url(/assets/header_dark.svg);
         --tag-icon: url('/assets/icons/tag_dark.svg');
     }
@@ -326,4 +329,20 @@ footer>ul>li>a {
     text-decoration: none;
     color: var(--font-color-inverted);
     padding: 0.5em;
+}
+
+footer>ul>li {
+    text-align: right;
+}
+
+footer>ul>li:first-child {
+    flex: 1.5;
+}
+footer>ul>li:last-child {
+    flex: 1;
+}
+
+article ::selection {
+    background-color: var(--selection-bg-color);
+    color: var(--selection-font-color);
 }
