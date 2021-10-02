@@ -1,3 +1,9 @@
-baseURL = "http://jonasgerdes.com/"
+baseURL = "https://jonasgerdes.dev/"
 languageCode = "en-us"
 title = "Jonas Gerdes"
+
+[deployment]
+
+[[deployment.targets]]
+name = "s3"
+URL = "s3://website?endpoint=s3.jonasgerdes.dev&s3ForcePathStyle=true"
