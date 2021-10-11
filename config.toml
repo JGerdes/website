@@ -5,5 +5,5 @@ title = "Jonas Gerdes"
 [deployment]
 
 [[deployment.targets]]
-name = "s3"
+name = "production"
 URL = "s3://website?endpoint=s3.jonasgerdes.dev&region=eu-central-1&s3ForcePathStyle=true"

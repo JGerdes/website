@@ -2,3 +2,4 @@
 .idea
 /public
 *.code-workspace
+.env
