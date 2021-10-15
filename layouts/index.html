@@ -5,8 +5,10 @@
 <article class="preview hoverable">
     <header class="scrim-{{.Params.header.scrim}}">
         <img src="{{.Params.header.image}}" loading="lazy">
-        <h1>{{.Title}}</h1>
-        <time>{{.Date | time.Format ":date_long"}}</time>
+        <div>
+            <h1>{{.Title}}</h1>
+            <time>{{.Date | time.Format ":date_long"}}</time>
+        </div>
     </header>
     <p class="summary">
         {{.Summary}}

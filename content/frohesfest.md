@@ -6,7 +6,7 @@ short_summary: Winterliches Spiel für den Browser.
 tags: [spiel,phaser,javascript,html5,winter]
 header:
     image: /assets/images/frohesfest/header.png
-    scrim: 0.4
+    scrim: 0.6
 actions:
     - label: Spielen
       action: http://frohesfest.jonasgerdes.com

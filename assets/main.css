@@ -133,59 +133,60 @@ article>header {
     position: relative;
 }
 
-article>header::after {
+article>header>div::after {
     position: absolute;
     bottom: 0;
     left: 0;
     content: ' ';
-    height: 6em;
+    height: 100%;
+    min-height: 4em;
     width: 100%;
     display: block;
-    background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0, rgba(0, 0, 0, .5) 66%, rgba(0, 0, 0, 1) 100%);
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0, rgba(0, 0, 0, 0.6) 66%, rgba(0, 0, 0, 1) 100%);
     opacity: .8;
 }
 
-article>header.scrim-0::after {
+article>header.scrim-0>div::after {
     opacity: 0;
 }
 
-article>header.scrim-0\.1::after {
+article>header.scrim-0\.1>div::after {
     opacity: 0.1;
 }
 
-article>header.scrim-0\.2::after {
+article>header.scrim-0\.2>div::after {
     opacity: 0.2;
 }
 
-article>header.scrim-0\.3::after {
+article>header.scrim-0\.3>div::after {
     opacity: 0.3;
 }
 
-article>header.scrim-0\.4::after {
+article>header.scrim-0\.4>div::after {
     opacity: 0.4;
 }
 
-article>header.scrim-0\.5::after {
+article>header.scrim-0\.5>div::after {
     opacity: 0.5;
 }
 
-article>header.scrim-0\.6::after {
+article>header.scrim-0\.6>div::after {
     opacity: 0.6;
 }
 
-article>header.scrim-0\.7::after {
+article>header.scrim-0\.7>div::after {
     opacity: 0.7;
 }
 
-article>header.scrim-0\.8::after {
+article>header.scrim-0\.8>div::after {
     opacity: 0.8;
 }
 
-article>header.scrim-0\.9::after {
+article>header.scrim-0\.9>div::after {
     opacity: 0.9;
 }
 
-article>header.scrim-1::after {
+article>header.scrim-1>div::after {
     opacity: 1;
 }
 
@@ -211,20 +212,27 @@ aside, p {
     line-height: 1.5em;
 }
 
-article>header>h1 {
+article>header>div {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
     position: absolute;
+    box-sizing: border-box;
     bottom: 0;
-    left: 0;
-    margin: 1rem 2rem;
+    padding: 0.5em 2em;
+    align-items: baseline;
+    justify-content: space-between;
+}
+
+article>header h1 {
+    margin: 0;
     color: var(--font-color-inverted);
     z-index: 1;
 }
 
-article>header>time {
-    position: absolute;
-    bottom: 0;
-    right: 0;
-    margin: 1rem 2rem;
+article>header time {
+    margin: 0;
     color: var(--font-color-inverted);
     z-index: 1;
 }
