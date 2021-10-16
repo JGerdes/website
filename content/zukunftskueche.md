@@ -18,4 +18,4 @@ Meine Aufgaben innerhalb der dreiköpfigen Gruppe war die komplette Programmieru
 
 Die Küche kann unter [lab.jonasgerdes.com/futurekitchen](http://lab.jonasgerdes.com/futurekitchen) ausprobiert werden.
 
-Die Küche ist für Desktopbrowser (vor allem Chrome und Firefox) optimiert und läuft - höchstwahrscheinlich - nicht ordentlich auf Tablets und Smartphones
+{{< aside >}}Die Küche ist für Desktopbrowser (vor allem Chrome und Firefox) optimiert und läuft - höchstwahrscheinlich - nicht ordentlich auf Tablets und Smartphones{{< /aside >}}
