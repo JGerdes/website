@@ -16,9 +16,10 @@ StoppelMap ist eine App für Android, die eine interaktive Karte des Stoppelmark
 
 Die App beinhaltet dazu noch eine Suchfunktion, die verschiedene Arten von Eingaben verarbeiten kann. So kann direkt nach dem Namen eines Festzeltes oder eines Fahrgeschäftes, oder aber auch nach einem Stichwort wie „WC“, „Bier“, „Pommes“ oder „Parkplatz“ gesucht werden.
 
-<img src="/assets/images/stoppelmap/screen1.png" alt=" Suchfunktion" class="left">
-<img src="/assets/images/stoppelmap/screen2.png" alt=" Suche nach 'WC' zeigt Toiletten im Umkreis" class="left">
-<div class="clear"></div>
+{{< figure class="phone" src="/assets/images/stoppelmap/screen1.png" alt="In der Sucheleiste der App wurde \"sch\" eingeben. Vorschläge, die diese Buchstabenkombination enthalten (wie z.B. \"Piratenrutsche\") werden darunter angezeigt." caption="Die Suche zeigt passende Vorschläge während der Eingabe.">}}
+
+{{< figure class="phone" src="/assets/images/stoppelmap/screen2.png" alt="Auf der Karte werden an entsprechenden Stellen Toiletten mit dem Label \"WC\" hervorgehoben." caption="Ergebnisse der Suche nach „WC“ werden auf der Karte angezeigt.">}}
+
 Aufgrund der Klausurenphase und Projektabgaben innerhalb meines Studiums konnte ich die StoppelMap leider nicht so früh anfangen, wie ich gerne gewollt hätte. So wurden einige Stände erst kurz vorher, teilweise sogar erst während der Markt bereits im Gange war, eingefügt. Da das Grundgerüst sowie ein Skript zum automatischen Zerschneiden einer großen Grafik in die einzelnen Kacheln für die verschiendenen Zoomstufen für GoogleMaps ja jetzt bereits fertig ist, hoffe ich, für das nächste Jahr früher beginnen und noch allerhand weitere Funktionen implementieren zu können.
 
 ## Download

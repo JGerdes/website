@@ -19,10 +19,13 @@ DriveBy ist eine App für Android, die dem Nutzer unterwegs wissenswerte Informa
 
 Dabei wurde der Fokus darauf gelegt, dass die App "handsfree also ohne großartige Eingabe des Nutzer funktioniert. Einmal gestartet läuft DriveBy im Hintergrund. Nun wird, sobald beispielsweise eine interessante Stadt in der Nähe ist, eine Heads-Up-Benachrichtigung angezeigt und ein Fakt zu dieser vorgelesen. Das funktioniert sogar mit ausgeschaltetem Bildschirm.
 
+
+{{< figure class="phone" src="/assets/images/driveby/screen_notification.png" alt="Heads-Up-Benachrichtigung von DriveBy" caption="Heads-Up-Benachrichtigungen zeigen den Namen des Ortes, über den Informationen vorgelesen werden.">}}
+
+
 Falls der Nutzer die bereits gehörten Informationen noch einmal nachlesen möchte, hat er die Möglichkeit, dies über die History-Funktion der App zu tun. Dort werden in chronologischer Reihenfolge alle angefahrenden Orte aufgelistet. Antippen eines Eintrags leitet auf die mobile Seite des jeweiligen Eintrag von Wikipedia weiter.
 
-{{< figure src="/assets//images/driveby/screen_history.png" alt="History-Ansicht" caption="In der History-Ansicht werden bereits besuchte Orte aufgelistet.">}}
-{{< figure src="/assets/images/driveby/screen_notification.png" alt="Heads-Up-Benachrichtigung von DriveBy" caption="Heads-Up-Benachrichtigungen zeigen den Namen des Ortes, über den Informationen vorgelesen werden.">}}
+{{< figure class="phone" src="/assets/images/driveby/screen_history.png" alt="History-Ansicht" caption="In der History-Ansicht werden bereits besuchte Orte aufgelistet.">}}
 
 ## Entwicklung
 Entwickelt wurde DriveBy innerhalb von 24 Stunden im Rahmen des Hackerthons [jacobsHack!](//jacobshack.com) 2016 von [Stefan Oberdörfer](//github.com/stefanoberdoerfer) und mir.

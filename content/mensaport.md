@@ -16,8 +16,8 @@ Mensaport ist eine App für Android, welche die Gerichte der kommenden 14 Tage a
 
 Daher habe ich, auch um meine Erfahrung mit der Umsetzung des Material Designs von Google unter Android zu erweitern, eine eigene App entwickelt. Sehr minimalistisch werden in der Hauptansicht die Gerichte für den heutigen Tag oder, z.B. am Wochenende, die des nächsten Werktages angezeigt. Neben einer Beschreibung werden Informationen über den Preis für Studenten und Mitarbeiter der Hochschule Bremen sowie ein Icon zum Teilen des Gerichts per Mail, SMS oder anderen Messenger angezeigt. Üben einen Drawer auf der linken Seite kann zwischen den Tagen gewechselt werden.
 
-{{< figure src="/assets/images/mensaport/screen1.png" alt="Übersicht der Gerichte eines Tages" caption="Übersicht der Gerichte eines Tages.">}}
-{{< figure src="/assets/images/mensaport/screen2.png" alt="Im Drawer kann ein Tag ausgewählt werden" caption="Im Drawer kann ein Tag ausgewählt werden.">}}
+{{< figure class="phone" src="/assets/images/mensaport/screen1.png" alt="Übersicht der Gerichte eines Tages" caption="Übersicht der Gerichte eines Tages.">}}
+{{< figure class="phone" src="/assets/images/mensaport/screen2.png" alt="Im Drawer kann ein Tag ausgewählt werden" caption="Im Drawer kann ein Tag ausgewählt werden.">}}
 
 ## Datenherkunft
 Nach kurzer Suche und Analyse der [Website des Studentenwerk Bremens](http://www.stw-bremen.de/de/essen-trinken/mensa-am-airport) konnte ich leider keine öffentliche API finden, unter der die aktuellen Informationen der Mensa erreichbar sind. Deswegen habe ich einen eigenen Server eingerichtet, der die besagte Website crawlt, die Daten mit einem [DOM-Parser](https://github.com/paquettg/php-html-parser) parst und der App die Gerichte im JSON-Format verfügbar macht.
