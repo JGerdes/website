@@ -269,17 +269,25 @@ a {
 }
 
 figure {
-    text-align: center;
     margin: 2em;
+    display: flex;
+    align-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 2em;
+    width: calc(100% - 4em);
 }
 
-figure>img {
-    width: 100%;
-    max-width: 32em;
+figure img{
+    flex: 0 0 auto;
+    max-width: min(24em, 100%);
 }
 
 figure>figcaption {
-    margin-top: 0.5em;
+    max-width: 16em;
+    text-align: center;
 }
 
 aside {
@@ -307,6 +315,16 @@ aside::before {
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center;
+}
+
+figure.phone img{
+    padding: 2% 2% 2% 2%;
+    border-radius: 2em;
+    outline: 2px #464646 solid;
+    background: linear-gradient(31deg, black, #343434);
+    aspect-ratio: 0.52;
+    object-fit: contain;
+    box-shadow: 0 2px 16px 0 #0000006e;
 }
 
 article > ul {
