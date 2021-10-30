@@ -9,7 +9,7 @@ header:
     scrim: 0.2
 actions:
     - label: Download
-      action: /awsm/download/awsm.zip
+      action: /download/awsm.zip
 ---
 
 AWSM ist ein kleines Tower-Defence-Spiel. Es ist in meinem sechsten Semester in einer Gruppenarbeit mit [Jonathan Wiemers](http://jonathanwiemers.com/) (siehe auch [JonApps](http://jonapps.com/)) für den Kurs „Game-Programming-Patterns“ entstanden. In diesem haben wir über das Semester verteilt immer wieder kleinere Spiele in C# und der [SFML.NET](http://www.sfml-dev.org/) Bibliothek programmiert, aus denen wir dann essentielle Pattern und Codeteile extrahiert und als eigenen kleine Library genutzt haben. Mit mehr Spielen wurde diese Bibliothek immer größer, bis am Ende fast ein eigenes Game-Framework entstanden ist.
@@ -21,7 +21,7 @@ Dies ist uns mit AWSM relativ gut gelungen. Neue Level können bequem durch das 
 ## Spielprinzip
 Der Spieler hat eine Auswahl von Türmen, die er für Energie kaufen und bauen kann. Dies Türme können in einen gewissen Radius mit einer gewissen Frequenz schießen. Mit ihnen muss der Spieler verhindern, dass die Gegner es schaffen, auf ihrem definierten Weg das Ende des Levels zu erreichen. Sollte dies eine gewisse Anzahl an Gegner gelingen, verliert der Spieler und muss/kann das Level erneut spielen. Abgeschossene Gegner verlieren Energie, die der Spieler bekommt und somit neue Türme bauen kann. Die Gegner erscheinen in Wellen, die der Spieler nacheinander auslösen kann. Sind alle Wellen vorüber, hat der Spieler gewonnen.
 
-<video src="/assets/videos/awsm_game_play.mp4" poster="/assets/videos/awsm-poster.png" controls=true loop=true></video>
+{{<video src="/assets/videos/awsm_game_play.mp4" poster="/assets/videos/awsm-poster.png">}}
 ## Steuerung
 #### Überall
 _ESCAPE_: Beenden des Spiels
@@ -46,8 +46,8 @@ Da wir zum Ende des Semesters ein möglichst komplettes Spiel abliefern wollten,
 <div class="track"><div class="track__info">03 - Polygon Beach - AWSM OST</div><audio src="awsm/ost/03_polygon_beach_128.mp3" data-cover="assets/images/awsm/ost/cover.png" data-wave="assets/images/awsm/ost/track3.svg" data-wave-played="/assets/images/awsm/ost/track3_played.svg" controls></audio></div>
 <div class="track"><div class="track__info">04 - Route N8 - AWSM OST</div><audio src="awsm/ost/04_route_n8_128.mp3" data-cover="assets/images/awsm/ost/cover.png" data-wave="assets/images/awsm/ost/track4.svg" data-wave-played="/assets/images/awsm/ost/track4_played.svg" controls></audio></div>
 
-Alle Tracks können in voller Qualität als [Album heruntergelanden](/awsm/download/awsm_ost.zip) werden.
+Alle Tracks können in voller Qualität als [Album heruntergelanden](/download/awsm_ost.zip) werden.
 
 ## Download
-Das Spiel ist kompatibel mit Windows und kann als [Standalone-Anwendung heruntergeladen](/awsm/download/awsm.zip) werden. Zum Spielen muss das zip-Archiv entpackt und _AWSM.exe_ ausgeführt werden.
+Das Spiel ist kompatibel mit Windows und kann als [Standalone-Anwendung heruntergeladen](/download/awsm.zip) werden. Zum Spielen muss das zip-Archiv entpackt und _AWSM.exe_ ausgeführt werden.
 
