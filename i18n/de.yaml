@@ -1,6 +1,10 @@
 privacy: 
     other: Datenschutzerklärung
+privacy-url: 
+    other: datenschutz
 imprint: 
     other: Impressum
+imprint-url: 
+    other: impressum
 contact:
     other: Kontakt

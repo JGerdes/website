@@ -1,6 +1,6 @@
 baseURL = "https://jonasgerdes.dev/"
 
-defaultContentLanguage = 'de'
+defaultContentLanguage = 'en'
 [languages]
   [languages.de]
     title = "Website von Jonas Gerdes"

@@ -1,6 +1,12 @@
 privacy: 
     other: Privacy Policy
+privacy-url: 
+    other: privacy
 imprint: 
     other: Imprint
+imprint-url: 
+    other: imprint
 contact:
     other: Contact
+learn-more:
+    other: Read more

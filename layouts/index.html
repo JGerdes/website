@@ -14,7 +14,7 @@
         {{.Summary}}
     </p>
     <ul class="action">
-        <li><a class="opener" href="/{{ with .File }}{{ .BaseFileName }}{{ end }}">Mehr erfahren</a></li>
+        <li><a class="opener" href="{{ .RelPermalink }}">{{ i18n "learn-more" }}</a></li>
         {{range .Params.actions}}
         <li><a href="{{.action}}">{{.label}}</a></li>
         {{end}}
