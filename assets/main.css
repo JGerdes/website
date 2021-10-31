@@ -72,8 +72,23 @@ header>.subtitle {
     color: var(--font-color-inverted);
 }
 
-nav {
+nav.social {
     margin-top: 2em;
+}
+
+nav.language_picker {
+    position: absolute;
+    top: 0.5em;
+    right: 1em;
+}
+
+nav.language_picker ul, nav.language_picker a {
+    text-transform: uppercase;
+    color: var(--font-color-inverted);
+}
+
+nav.language_picker a.current {
+    text-decoration: underline;
 }
 
 nav>ul {
@@ -395,13 +410,7 @@ footer>ul>li>a {
 
 footer>ul>li {
     text-align: right;
-}
-
-footer>ul>li:first-child {
-    flex: 1.5;
-}
-footer>ul>li:last-child {
-    flex: 1;
+    white-space: nowrap;
 }
 
 article ::selection {

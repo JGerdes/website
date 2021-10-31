@@ -1,9 +1,16 @@
 baseURL = "https://jonasgerdes.dev/"
-languageCode = "de-de"
-title = "Jonas Gerdes"
+
+defaultContentLanguage = 'de'
+[languages]
+  [languages.de]
+    title = "Website von Jonas Gerdes"
+    weight = 1
+
+  [languages.en]
+    title = "Website of Jonas Gerdes"
+    weight = 2
 
 [deployment]
-
 [[deployment.targets]]
 name = "production"
 URL = "s3://website?endpoint=s3.jonasgerdes.dev&region=eu-central-1&s3ForcePathStyle=true"

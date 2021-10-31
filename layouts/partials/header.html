@@ -1,9 +1,20 @@
 <header>
+    <nav class="language_picker">
+        <ul>
+        {{ range .AllTranslations }}
+            {{ if eq .Language $.Language }}
+                <li><a rel="alternate" href="{{ .Permalink }}" hreflang="{{ .Language }}" lang="{{ .Language }}" class="current">{{ .Language }}</a></li>
+            {{ else }}
+                <li><a rel="alternate" href="{{ .Permalink }}" hreflang="{{ .Language }}" lang="{{ .Language }}">{{ .Language }}</a></li>
+            {{ end }}
+        {{ end }}
+        </ul>
+      </nav>
     <h1>
         <a href="/">Jonas Gerdes</a>
     </h1>
-    <div class="subtitle">Softwareentwickler aus Hamburg</div>
-    <nav>
+    <div class="subtitle">{{ .Params.subtitle }}</div>
+    <nav class="social">
         <ul>
             <li>
                 <a href="https://github.com/JGerdes" target="_blank"><img src="/assets/icons/github.svg"
