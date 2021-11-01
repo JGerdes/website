@@ -6,7 +6,7 @@ short_summary: A simple game of skill for Android.
 tags: [game,android]
 header:
     image: /assets/images/rectrace/header.png
-    scrim: 0.3
+    scrim: 0.5
 actions:
     - label: Show on Google Play
       action: https://play.google.com/store/apps/details?id=com.jonasgerdes.rectrace
