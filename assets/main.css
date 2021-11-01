@@ -417,3 +417,19 @@ article ::selection {
     background-color: var(--selection-bg-color);
     color: var(--selection-font-color);
 }
+
+
+.work-in-progress {
+    background: var(--footer-bg-color);
+    display: inline;
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 0.5em 2em;
+    min-width: 12em;
+    text-align: center;
+    transform: translate(-50%,-50%) translate(4em, 4em) rotate(-45deg);
+    transform-origin: center;
+    color: var(--font-color-inverted);
+    box-shadow: rgba(0, 0, 0, 0.3)1px 4px 16px 0px;
+}
