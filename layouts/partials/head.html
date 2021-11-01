@@ -5,7 +5,7 @@
     {{ if isset .Params "short_summary" }}
     <meta name="description" content="{{.Params.short_summary}}">
     {{ else }}
-    <meta name="description" content="Website von Jonas Gerdes, Softwareentwickler aus Hamburg.">
+    <meta name="description" content="{{ i18n "default-description" }}">
     {{ end }}
 
     <meta property="og:type" content="website">
@@ -13,13 +13,13 @@
     {{ if isset .Params "short_summary" }}
     <meta property="og:description" content="{{.Params.short_summary}}">
     {{ else }}
-    <meta property="og:description" content="Website von Jonas Gerdes, Softwareentwickler aus Hamburg.">   
+    <meta property="og:description" content="{{ i18n "default-description" }}">   
     {{ end }}
-    <meta property="og:url" content="http://jonasgerdes.com">
+    <meta property="og:url" content="{{ .Site.BaseURL }}">
     {{ if isset .Params "header" }}
-    <meta property="og:image" content="http://jonasgerdes.com{{.Params.header.image}}">
+    <meta property="og:image" content="{{strings.TrimRight "/" .Site.BaseURL }}{{.Params.header.image}}">
     {{ else }}
-    <meta property="og:image" content="http://jonasgerdes.com/assets/images/og_default.png">
+    <meta property="og:image" content="{{ .Site.BaseURL }}assets/images/og_default.png">
     {{ end }}
     <title>Jonas Gerdes - {{.Title}}</title>
     <link href="https://fonts.googleapis.com/css?family=Roboto:300,400" rel="stylesheet" type="text/css">
