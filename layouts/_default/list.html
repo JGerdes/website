@@ -15,7 +15,7 @@
     <ul class="action">
         <li><a class="opener" href="{{ .RelPermalink }}">{{ i18n "learn-more" }}</a></li>
         {{range .Params.actions}}
-        <li><a href="{{.action}}">{{.label}}</a></li>
+        <li><a href="{{.action}}"{{ if strings.HasPrefix .action "http" }} target="_blank" rel="noreferrer nofollow"{{ end }}>{{.label}}</a></li>
         {{end}}
     </ul>
 </article>
