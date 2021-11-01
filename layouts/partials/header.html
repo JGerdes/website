@@ -2,15 +2,15 @@
     <div class="work-in-progress">{{ i18n "wip" }}</div>
     <nav class="language_picker">
         <ul>
-        {{ range .AllTranslations }}
+            {{ range .AllTranslations }}
             {{ if eq .Language $.Language }}
-                <li><a rel="alternate" href="{{ .Permalink }}" hreflang="{{ .Language }}" lang="{{ .Language }}" class="current">{{ .Language }}</a></li>
+            <li><a rel="alternate" href="{{ .Permalink }}" hreflang="{{ .Language }}" lang="{{ .Language }}" class="current">{{ .Language }}</a></li>
             {{ else }}
-                <li><a rel="alternate" href="{{ .Permalink }}" hreflang="{{ .Language }}" lang="{{ .Language }}">{{ .Language }}</a></li>
+            <li><a rel="alternate" href="{{ .Permalink }}" hreflang="{{ .Language }}" lang="{{ .Language }}">{{.Language }}</a></li>
             {{ end }}
-        {{ end }}
+            {{ end }}
         </ul>
-      </nav>
+    </nav>
     <h1>
         <a href="{{ "/" | relLangURL }}">Jonas Gerdes</a>
     </h1>
@@ -18,24 +18,29 @@
     <nav class="social">
         <ul>
             <li>
-                <a href="https://github.com/JGerdes" target="_blank"><img src="/assets/icons/github.svg"
-                        alt="Jonas Gerdes auf GitHub" /></a>
+                <a href="https://github.com/JGerdes" target="_blank" rel="noreferrer nofollow">
+                    <img src="/assets/icons/github.svg" alt="Jonas Gerdes auf GitHub" />
+                </a>
             </li>
             <li>
-                <a href="https://gitlab.com/JGerdes" target="_blank"><img src="/assets/icons/gitlab.svg"
-                        alt="Jonas Gerdes auf GitLab" /></a>
+                <a href="https://gitlab.com/JGerdes" target="_blank" rel="noreferrer nofollow">
+                    <img src="/assets/icons/gitlab.svg" alt="Jonas Gerdes auf GitLab" />
+                </a>
             </li>
             <li>
-                <a href="https://norden.social/@jgerdes" target="_blank"><img src="/assets/icons/mastodon.svg"
-                        alt="Jonas Gerdes auf Norden.Social (Mastodon)" /></a>
+                <a href="https://norden.social/@jgerdes" target="_blank" rel="noreferrer nofollow">
+                    <img src="/assets/icons/mastodon.svg" alt="Jonas Gerdes auf Norden.Social (Mastodon)" />
+                </a>
             </li>
             <li>
-                <a href="https://twitter.com/Jonas_Gerdes" target="_blank"><img src="/assets/icons/twitter.svg"
-                        alt="Jonas Gerdes auf Twitter" /></a>
+                <a href="https://twitter.com/Jonas_Gerdes" target="_blank" rel="noreferrer nofollow">
+                    <img src="/assets/icons/twitter.svg" alt="Jonas Gerdes auf Twitter" />
+                </a>
             </li>
             <li>
-                <a href="mailto:hello@jonasgerdes.com" target="_blank"><img src="/assets/icons/email.svg"
-                        alt="Jonas Gerdes eine E-Mail senden" /></a>
+                <a href="mailto:hello@jonasgerdes.com" target="_blank" rel="noreferrer nofollow">
+                    <img src="/assets/icons/email.svg" alt="Jonas Gerdes eine E-Mail senden" />
+                </a>
             </li>
         </ul>
     </nav>

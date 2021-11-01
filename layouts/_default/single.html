@@ -1,7 +1,7 @@
 {{ define "main" }}
 <article>
     {{ if isset .Params "header" }}
-    <img src="{{.Params.header.image}}">
+    <img src="{{.Params.header.image}}" alt="">
     {{ end }}
     {{ if not .Params.specialpage}}
     <time>{{.Date | time.Format ":date_long"}}</time>

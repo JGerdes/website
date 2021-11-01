@@ -23,14 +23,14 @@ Der Spieler hat eine Auswahl von Türmen, die er für Energie kaufen und bauen k
 
 {{<video src="/assets/videos/awsm_game_play.mp4" poster="/assets/videos/awsm-poster.png">}}
 ## Steuerung
-#### Überall
+### Überall
 _ESCAPE_: Beenden des Spiels
 
-#### Menü
+### Menü
 _Pfeiltasten_ oder _W-A-S-D_: Auswahl
 _ENTER_: Auswahl bestätigen
 
-#### Spiel
+### Spiel
 _Pfeiltasten_ oder _W-A-S-D_ oder Maus an den Rand bewegen: Verschieben der Ansicht
     	_1, 2, 3, ..._: Auswahl eines Turmes
     	_Klicken_: Ausgewählten Turm an Mausposition bauen

@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html{{ with .Site.Language.Lang }} lang="{{ . }}"{{end}}>
     {{- partial "head.html" . -}}
     <body>
     <!--{{ printf "%#v" .Site }}-->

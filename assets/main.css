@@ -4,8 +4,8 @@ body {
     --font-color-inverted: #fafafa;
     --card-color: #fafafa;
     --link-color: #009688;
-    --action-color: #e64a19;
-    --action-color-10: #e64a191a;
+    --action-color: #c22d00;
+    --action-color-10: #c22d001a;
     --footer-bg-color: #222222;
     --selection-bg-color: #4DB6AC;
     --selection-font-color: #fafafa;
@@ -19,16 +19,16 @@ body {
         --bg-color: #210b6d;
         --font-color-inverted: #fafafa;
         --font-color: #fafafa;
-        --link-color: #e61971;
-        --card-color: #222222;
-        --action-color: #e61971;
-        --action-color-10: #e619711a;
-        --footer-bg-color: #222222;
+        --link-color: #ff0088;
+        --card-color: #1d1d1d;
+        --action-color: #ff0088;
+        --action-color-10: #ff00881a;
+        --footer-bg-color: #1d1d1d;
         --selection-bg-color: #5623b0;
         --selection-font-color: #fafafa;
         --header-background: url(/assets/header_dark.svg);
         --tag-icon: url('/assets/icons/tag_dark.svg');
-        --aside-warning-bg: #e61971;
+        --aside-warning-bg: #ff0088;
     }
 }
 
@@ -82,13 +82,18 @@ nav.language_picker {
     right: 1em;
 }
 
-nav.language_picker ul, nav.language_picker a {
+nav.language_picker a {
     text-transform: uppercase;
     color: var(--font-color-inverted);
+    padding: 1em 0.5em
 }
 
 nav.language_picker a.current {
-    text-decoration: underline;
+    text-decoration: underline;;
+}
+
+nav.language_picker ul {
+    gap: 0;
 }
 
 nav>ul {
